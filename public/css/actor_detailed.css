@@ -1,0 +1,61 @@
+/* actor*/
+*{margin: 0;padding: 0;}
+.clear:after{content:"200B";display:block;height:0;font-size:0;clear:both;}
+.clearfix:after{content:"200B";display:block;height:0;font-size:0;clear:both;}
+html body{font-family: "楷体";font-size:62.5%}
+a{text-decoration:none;color:#262626;}
+ul{list-style: none;}
+
+body {
+    background-image: -webkit-linear-gradient(left, #fff 50%, #e4e4e4 50%);
+-moz--linear-gradient(left, #fff 50%, #e4e4e4 50%);
+-ms--linear-gradient(left, #fff 50%, #e4e4e4 50%);
+-o--linear-gradient(left, #fff 50%, #e4e4e4 50%);
+linear-gradient(left, #fff 50%, #e4e4e4 50%);
+
+}
+
+
+#actor .actorA{height: 100vh;}
+#actor .actorA .manage{width:89.5%;margin:0 auto;height: 95px;padding-top: 25px;line-height: 32px;}
+#actor .actorA .manage .manage_A h4{font-size: 3.2em;}
+#actor .actorA .manage .manage_A span{color: #ce3233;font-size: 2.2em;font-family: "微软雅黑";}
+
+
+/**/
+#actor .brief{width:89.5%;height:505px;margin:0 auto;}
+#actor .brief .left{float: left;width:365px;height:505px;border: 3px solid #dddddd;text-align: center;margin-right: 50px;}
+#actor .brief .left:hover{border: 3px solid #006baf;}
+#actor .brief .left .pic{width:348px;height:487px;border: 2px solid #dddddd;margin: 7px;}
+#actor .brief .left .pic:hover{border: 2px solid #006baf;}
+#actor .brief .left .pic .imges{width: 332px;height:470px;margin: 8px 9px;background-image: url(../images/cator1.png);background-size: cover;background-repeat: no-repeat;}
+
+
+
+
+
+/*#actor_detailed .brief .left .pic .imgesone{width: 332px;height:470px;background-image: url(../images/2.png);margin: 8px 9px;background-size: cover;background-repeat: no-repeat;background-position: 0;}*/
+/*#actor_detailed .brief .left .pic .imgestwo{width: 332px;height:470px;background-image: url(../images/3.png);margin: 8px 9px;background-size: cover;background-repeat: no-repeat;background-position: 0;}*/
+
+#actor .name{width:89%;margin:40px auto;}
+#actor .name .nameA{word-wrap: break-word;  letter-spacing: 2px;float: left;border: 1px solid #000000;color: #383838;margin-right: 30px;}
+#actor .name .nameA>a{display: block;font-size: 16px;width: 35px;height:76px;text-align:center;padding-top: 34px;}
+
+/*名字添加背景色和改变边框线*/
+#actor .ac{background-color:#006baf;border:none; color: white;}
+#actor .brief .self{margin-left: 90px;width: 240px;height: 500px;float: left;}
+#actor .brief .self>li{word-wrap: break-word;  letter-spacing: 2px;float: left;width: 55px;height: 480px;font-size: 3em;}
+
+#actor .brief .stage>li{word-wrap: break-word;  letter-spacing: 2px;font-size: 16px;width: 35px;height:88px;border: 1px solid #000000;float: left;margin-right: 10px;text-align:center;padding-top: 22px;}
+#actor .brief .cont{width: 800px;height: 262px;float: right;}
+#actor .brief .cont>li{width:187px;height: 261px;border: 1px solid #c8703f;float: right;margin-left: 61px;}
+#actor .brief .contone{width: 790px;height: 262px;float: left;margin-left: 163px;margin-top: 30px;}
+#actor .brief .contone>li{float: left;width:187px;height: 261px;border: 1px solid #c8703f;margin-right: 61px;}
+#actor .brief .but{float: right;width: 100px;height:110px;margin-top: 20px;}
+#actor .brief .but>li{word-wrap: break-word; letter-spacing: 2px;font-size: 16px;width: 35px;height:80px;border: 1px solid #000000;float: right;margin-left: 10px;text-align:center;padding-top: 30px}
+
+
+
+
+
+
